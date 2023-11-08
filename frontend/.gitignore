@@ -10,7 +10,6 @@
 
 # production
 /build
-Pets_ReuniteHub.code-workspace
 
 # misc
 .DS_Store
