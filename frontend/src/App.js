@@ -1,24 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import MainHeader from "./components/navigation/Navigation/MainHeader";
+import Home from "./layout/Home";
+import Footer from "./section/footer/Footer";
+import Pets from "./pages/Pets";
+import NotFoundPage from "./pages/404";
+import LostForm from "./pages/LostForm";
+import PetView from "./pages/PetView";
+import ContactUs from "./pages/ContactUs";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <>
+        <MainHeader />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/findPet" element={<Pets />} />
+          <Route path="/lostPetForm" element={<LostForm />} />
+          <Route path="/:petId/viewPet" element={<PetView />} />
+          <Route path="/contactUs" element={<ContactUs />} />
+          <Route path="*" element={<NotFoundPage />} />
+        </Routes>
+        {/* <Footer /> */}
+      </>
+    </Router>
   );
 }
 

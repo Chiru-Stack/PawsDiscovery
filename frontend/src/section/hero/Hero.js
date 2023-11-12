@@ -1,7 +1,7 @@
 import { useNavigate } from "react-router-dom";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { icon } from "@fortawesome/fontawesome-svg-core/import.macro";
+import { icon } from "@fortawesome/fontawesome-svg-core";
 
 import Button from "../../shared/UI/Button/Button";
 

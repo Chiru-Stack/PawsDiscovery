@@ -3,7 +3,7 @@ import { useState } from "react";
 import NavLinks from "./NavLinks";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { icon } from "@fortawesome/fontawesome-svg-core/import.macro";
+import { icon } from "@fortawesome/fontawesome-svg-core";
 
 import classes from "./MainNavigation.module.css";
 
