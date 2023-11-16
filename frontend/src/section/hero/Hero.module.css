@@ -1,7 +1,8 @@
 @import "../../colors.css";
 
 .container {
-  background-image: url("bg.jpg");
+  background-image: url("Dog1.png");
+  background-blend-mode: overlay;
   background-size: cover;
   background-repeat: no-repeat;
   height: 50rem;

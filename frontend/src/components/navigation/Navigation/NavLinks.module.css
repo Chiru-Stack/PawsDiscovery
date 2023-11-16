@@ -4,6 +4,7 @@
 height: 80px;
 display: flex;
 background-color: transparent;
+filter: blur(10px);
 justify-content: center;
 align-items: center;
 position: sticky;

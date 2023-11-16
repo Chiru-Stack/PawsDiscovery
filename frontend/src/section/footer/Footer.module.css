@@ -4,6 +4,7 @@
     text-align: center;
     margin: 1.5rem 0;
     bottom: 0;
+    color: white;
 }
 
 .footer p{
@@ -11,5 +12,5 @@
 }
 
 .footer hr{
-    background-color: var(--primary-color);
+    background-color: var(--background-color);
 }
