@@ -1,64 +1,32 @@
 import { useNavigate } from "react-router-dom";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { icon } from "@fortawesome/fontawesome-svg-core";
+import { faPaw } from "@fortawesome/free-solid-svg-icons";
 
 import Button from "../../shared/UI/Button/Button";
 
 import classes from "./Hero.module.css";
 
 const Hero = () => {
-  const navigate = useNavigate();
-  const lostPetFormHandler = () => {
-    navigate("/lostPetForm");
-  };
-  const findPetHandler = () => {
-    navigate("/findPet");
-  };
-  return (
+ const navigate = useNavigate();
+ const lostPetFormHandler = () =>
+ navigate("/lostPetForm");
+
+ const findPetHandler = () =>
+ navigate("/findPet");
+
+ return (
     <div className={classes.container}>
       <div className={classes.imgContainer}>
         <div className={classes.pawprint}>
-          <FontAwesomeIcon
-            className={classes.paw}
-            icon={icon({ name: "paw", style: "solid" })}
-            // size="3x"
-          />
-          <FontAwesomeIcon
-            className={classes.paw}
-            icon={icon({ name: "paw", style: "solid" })}
-            // size="2x"
-          />
-          <FontAwesomeIcon
-            className={classes.paw}
-            icon={icon({ name: "paw", style: "solid" })}
-            // size="1x"
-          />
-          <FontAwesomeIcon
-            className={classes.paw}
-            icon={icon({ name: "paw", style: "solid" })}
-            // size="2x"
-          />
-          <FontAwesomeIcon
-            className={classes.paw}
-            icon={icon({ name: "paw", style: "solid" })}
-            // size="3x"
-          />
-          <FontAwesomeIcon
-            className={classes.paw}
-            icon={icon({ name: "paw", style: "solid" })}
-            // size="3x"
-          />
-          <FontAwesomeIcon
-            className={classes.paw}
-            icon={icon({ name: "paw", style: "solid" })}
-            // size="1x"
-          />
-          <FontAwesomeIcon
-            className={classes.paw}
-            icon={icon({ name: "paw", style: "solid" })}
-            // size="2x"
-          />
+          <FontAwesomeIcon className={classes.paw} icon={faPaw} />
+          <FontAwesomeIcon className={classes.paw} icon={faPaw} />
+          <FontAwesomeIcon className={classes.paw} icon={faPaw} />
+          <FontAwesomeIcon className={classes.paw} icon={faPaw} />
+          <FontAwesomeIcon className={classes.paw} icon={faPaw} />
+          <FontAwesomeIcon className={classes.paw} icon={faPaw} />
+          <FontAwesomeIcon className={classes.paw} icon={faPaw} />
+          <FontAwesomeIcon className={classes.paw} icon={faPaw} />
         </div>
       </div>
       <div className={classes.textContainer}>
@@ -82,7 +50,7 @@ const Hero = () => {
         </div>
       </div>
     </div>
-  );
+ );
 };
 
 export default Hero;
