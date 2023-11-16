@@ -25,6 +25,7 @@ max-width: 1500px;
   flex-direction: row;
   align-items: center;
   color: white;
+  font-weight: bold;
   /*color: var(--font-color); */
 }
 
