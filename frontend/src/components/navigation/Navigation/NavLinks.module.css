@@ -79,7 +79,6 @@ max-width: 1500px;
 
 @media (max-width: 600px) {
   .navlinks {
-    /* display: none; */
     flex-direction: column;
     gap: 2rem;
     justify-content: center;
