@@ -47,7 +47,7 @@ The project involves building a comprehensive platform with the following featur
 - Clone the project
 
 ```bash
-  git clone https://github.com/chandel-aman/lost-and-found-pets.git
+  git clone https://github.com/Chiru-Stack/Pets_ReuniteHub.git
 ```
 
 - Go to the project directory
