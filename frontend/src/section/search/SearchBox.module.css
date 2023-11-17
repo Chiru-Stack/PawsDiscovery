@@ -2,13 +2,13 @@
 
 .searchContainer {
   width: 100%;
-  height: 30rem;
+  height: 15rem;
+  padding: 0 0 2rem 0;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  background-color: var(--primary-color);
-  color: #000;
+  color: white;
 }
 
 .searchContainer h1 {
@@ -16,11 +16,11 @@
 }
 
 .searchBar {
-  width: 60%;
+  width: 40%;
   height: 3rem;
-  border: 1px solid var(--assent-color);
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
-    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  border: 1px solid whitesmoke;
+  box-shadow: rgba(245, 245, 245, 0.314) 0px 13px 27px -5px,
+    rgba(255, 255, 255, 0.283) 0px 8px 16px -8px;
   border-radius: 25px;
   display: flex;
   align-items: center;
@@ -36,7 +36,7 @@
   width: 95%;
   font-size: 20px;
   text-align: center;
-  color: var(--assent-color);
+  color: black
 }
 .searchBar input::placeholder {
   font-size: small;
@@ -48,7 +48,7 @@
 
 .searchBar .search {
   font-size: 2rem;
-  margin: 10px 15px 10px 0;
+  margin: 10px 15px 10px 15px;
   color: var(--assent-color);
   cursor: pointer;
 }

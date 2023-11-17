@@ -10,40 +10,8 @@
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  align-items: center;
+  align-items: flex-start;
   position: relative;
-}
-
-.container .textContainer {
-  text-align: center;
-  margin-left: 4rem;
-  color: white;
-  font-weight: bolder;
-}
-
-.container .textContainer h1 {
-  margin-bottom: 2rem;
-  text-align: center;
-  font-size: 3.5rem;
-  font-family: 'Arial', sans-serif;
-  color: var(--text-color);
-}
-
-.container .textContainer p {
-  margin-bottom: 2rem;
-  text-align: center;
-  font-family: 'Courier New', monospace;
-  font-size: 1.5rem;
-  color: var(--text-color);
-}
-
-.container .textContainer .button {
-  display: flex;
-  justify-content: center;
-  gap: 1rem;
-  font-family: 'Verdana', sans-serif;
-  font-size: 1.2rem;
-  color: var(--button-text-color);
 }
 
 .container .imgContainer {
@@ -53,13 +21,13 @@
 }
 
 .pawprint {
-  position: relative;
-  transform-origin: 50% 50%;
+  position: absolute;
+  left: 0;
   font-size: 100px;
   width: 1em;
   height: 5em;
   color: var(--assent-color);
-}
+ }
 
 @media (min-width: 500px) and (max-width: 580px){
   .pawprint{

@@ -2,8 +2,9 @@
 
 .lfSection{
     position: relative;
-    margin-top: 6rem;
+    margin-top: 2rem;
     margin-bottom: 2rem;
+    color: white;
     background-color: var(--lnf-color, inherit);
     display: flex;
     flex-direction: column;
@@ -12,5 +13,7 @@
 
 .lfSection div{
     /* width: 100%; */
+    color: white;
+    padding: 8px;
     margin: auto;
 }

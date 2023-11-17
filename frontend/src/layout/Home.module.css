@@ -1,5 +1,6 @@
 @import "../colors.css";
 
 body {
-    background-image: linear-gradient(to right, #f3ccc0, #f1d1c6d3, #f0c2b2);
+    /* background-image: linear-gradient(to right, #f3ccc0, #f1d1c6d3, #f0c2b2); */
+    background-color: rgba(0, 0, 0, 0.852);
 }

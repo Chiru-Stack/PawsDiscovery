@@ -1,9 +1,9 @@
 @import "../../../colors.css";
 
 .button{
-    padding: 8px;
-    width: 60px;
-    border-radius: 80px;
+    padding: 80px;
+    width: 45%;
+    border-radius: 8px;
     border: none;
     cursor: pointer;
     outline: none;
