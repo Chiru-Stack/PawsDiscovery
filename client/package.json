@@ -1,0 +1,63 @@
+{
+  "name": "PRH",
+  "version": "1.0.0",
+  "author": "Team-130",
+  "description": "FIND YOUR LOST PETS",
+  "private": true,
+  "scripts": {
+    "start": "react-scripts --openssl-legacy-provider start",
+    "build": "react-scripts --openssl-legacy-provider build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "http": "^0.0.1-security",
+    "jwt-decode": "^3.1.2",
+    "moment": "^2.29.1",
+    "mongodb": "^6.3.0",
+    "mongoose": "^8.0.1",
+    "path": "^0.12.7",
+    "react": "^17.0.2",
+    "react-custom-scrollbars": "^4.2.1",
+    "react-datepicker": "^3.7.0",
+    "react-dom": "^17.0.2",
+    "react-image-lightbox": "^5.1.1",
+    "react-markdown": "^5.0.3",
+    "react-router-dom": "^5.2.0",
+    "react-syntax-highlighter": "^15.4.3",
+    "react-textarea-autosize": "^8.3.2",
+    "react-toastify": "^7.0.3",
+    "react-transition-group": "^4.4.1",
+    "socket.io-client": "^4.0.1"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ],
+    "rules": {
+      "react/jsx-uses-react": "off",
+      "react/react-in-jsx-scope": "off"
+    }
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^5.11.10",
+    "@testing-library/react": "^11.2.6",
+    "@testing-library/user-event": "^13.1.1",
+    "react-scripts": "^5.0.1"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
