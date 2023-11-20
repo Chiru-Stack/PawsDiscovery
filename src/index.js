@@ -17,7 +17,7 @@ const io = require('./modules/socket')(httpServer)
 app.use(express.static(path.join(__dirname, '..', 'public')))
 app.use(express.static(path.join(__dirname, '..', 'client', 'build')))
 app.use(cors({
-  origin: process.env.CLIENT
+  origin: '*'
 }))
 app.use(express.json())
 

@@ -14,7 +14,7 @@ const { verifyAccessTokenIO } = require('../utils/jwt');
 module.exports = (server) => {
   const io = socketIO(server, {
     cors: {
-      origin: process.env.CLIENT,
+      origin: '*',
     }
   })
 
