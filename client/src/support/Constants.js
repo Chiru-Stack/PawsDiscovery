@@ -1,4 +1,4 @@
-const BACKEND = 'http://localhost:8000';
+const BACKEND = 'https://petsreunitehub.onrender.com';
 
 const Strings = {
 	goToHomePage: {
