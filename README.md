@@ -1,4 +1,4 @@
-# 🐾 Project 40 - Pets Reunite Hub
+# 🐾 Project 40 - Pets Reunite Hub("Client" Folder for Frontend "src" Folder for Backend)
 
 ## Overview
 
@@ -38,36 +38,6 @@ The project involves building a comprehensive platform with the following featur
   - Express.js 🌐
   - MongoDB 📊
   
-## Setup
-
-- Fork the poject
-
-- Create a new branch
-
-- Clone the project
-
-```bash
-  git clone https://github.com/Chiru-Stack/Pets_ReuniteHub.git
-```
-
-- Go to the project directory
-
-```bash
-  cd frontend
-```
-
-- Install dependencies
-
-```bash
-  npm install
-```
-
-- Start the server
-
-```bash
-  npm start
-```
-
 ## How to Contribute
 
 Contributions are welcome! If you'd like to contribute, please follow these steps:
