@@ -91,11 +91,11 @@ const LeftMenu = ({ open, setMenuOpen }) => {
               <span className="nav_text">{Strings.admins[lang]}</span>
             </NavLink>
           </li>
-          <li className="nav_item">
+          {/* <li className="nav_item">
             <NavLink to="/rules" onClick={() => setMenuOpen(false)}>
               <span className="nav_text">{Strings.rules[lang]}</span>
             </NavLink>
-          </li>
+          </li> */}
         </ul>
       </nav>
     </aside>
