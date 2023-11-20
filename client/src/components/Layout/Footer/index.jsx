@@ -3,7 +3,7 @@ import './style.css';
 const Footer = () => {
   return (
     <footer className="general_footer">
-      <span className="copyright">Forum, {new Date().getFullYear()}. All Rights Reserved</span>
+      <span className="copyright">Ethnus Team - 130, {new Date().getFullYear()}</span>
         
     </footer>
   )
