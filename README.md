@@ -1,5 +1,5 @@
 # 🐾 Project 40 - Pets Reunite Hub
-
+# "Client" Folder for Frontend "src" Folder for Backend
 ## Overview
 
 Pets Reunite Hub, developed by Team T130, is a MERN (MongoDB, Express.js, React, Node.js) full-stack project aimed at creating a user-friendly website. The primary objective is to establish a platform that enables users to report lost or found pets in their respective areas. The platform also includes a search functionality to match reports, facilitating the reunification of lost animals with their owners.
