@@ -58,4 +58,8 @@ Let's work together to create an impactful solution for reuniting lost pets with
 - [![Yaswanth14062003](https://avatars.githubusercontent.com/u/yaswanth14062003_user_id?v=4)](https://github.com/yaswanth14062003)
 - [![Saikolupoti](https://avatars.githubusercontent.com/u/saikolupoti_user_id?v=4)](https://github.com/saikolupoti)
 
+<a href="https://github.com/Chiru-Stack/PawsDiscovery/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=Chiru-Stack/PawsDiscovery" />
+</a>
+
 `This document is the README.md file`
