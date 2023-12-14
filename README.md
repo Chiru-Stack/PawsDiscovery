@@ -61,5 +61,3 @@ Let's work together to create an impactful solution for reuniting lost pets with
 <a href="https://github.com/Chiru-Stack/PawsDiscovery/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=Chiru-Stack/PawsDiscovery" />
 </a>
-
-`This document is the README.md file`
