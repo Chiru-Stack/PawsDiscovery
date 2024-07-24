@@ -8,6 +8,7 @@ import './style.css';
 const Markdown = ({ source, onImageClick }) => {
   const addLink = (text) => {
     // eslint-disable-next-line
+    // eslint-disable-next-line
     const reUrl = /([^\[\(])(https?:\/\/(?:www\.)?[-a-zA-Z0-9@:%._\+~#=]{2,256}\.[a-z]{2,6}[-a-zA-Z0-9@:%_\+.~#?&//=]*)([^\]\)])/g
     return text.replace('````', '``').replace(reUrl, '$1[$2]($2)$3')
   }
