@@ -11,6 +11,7 @@ Pets Reunite Hub, developed by Team T130, is a MERN (MongoDB, Express.js, React,
 - Devineni Guna Sekhar
 - Kolupoti Sai Prakash
 - Suram Sai Yaswanth Reddy
+- Hari Sai Veera
 
 ## Project Scope
 
